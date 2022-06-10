@@ -3,5 +3,5 @@
 COUNT=0
 until [ "$COUNT" -eq 10 ]; do
       echo "Best School"
-      let COUNT=COUNT+1
+      let 'COUNT=COUNT+1'
 done
