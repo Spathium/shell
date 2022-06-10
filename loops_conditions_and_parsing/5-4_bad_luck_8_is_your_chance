@@ -14,4 +14,4 @@ do
         echo "Best School"
     fi
     ((COUNTER+=1))
-one
+done
