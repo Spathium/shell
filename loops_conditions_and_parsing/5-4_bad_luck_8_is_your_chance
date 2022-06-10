@@ -2,7 +2,7 @@
 # displays Holberton School 10 times.
 
 COUNTER=1
-while [ $COUNTER -lt 10 ]
+while [ $COUNTER -lt 11 ]
 do
     if [ $COUNTER = 4 ]
     then
@@ -14,4 +14,4 @@ do
         echo "Best School"
     fi
     ((COUNTER+=1))
-done
+one
