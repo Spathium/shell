@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Bash script that displays Holberton School 10 times
 cont=1
-for (i=1;<=10;i++) {
-    echo "Best School"
-}
+while [ $cont -le 10 ];
+do
+    echo "Holberton School"
+    let cont=cont+1
+done
